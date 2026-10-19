@@ -25,9 +25,21 @@ export default function HomePage() {
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col justify-center px-6">
         <h1 className="mb-3 text-4xl font-bold">Mafia42</h1>
 
-        <p className="mb-10 text-gray-500">
+        <p className="mb-6 text-gray-500">
           Rankings and Event Box Simulator
         </p>
+
+        <div className="mb-8 rounded-xl border border-red-300 bg-red-50 p-5 text-red-800">
+          <p className="font-semibold">
+            Mafia42 Rankings has been discontinued as of October 19, 2026.
+          </p>
+          <p className="mt-2">
+            Interested in continuing the project? 
+            DM{" "}
+            <span className="font-semibold">@wangjinzhu</span>{" "}
+            on Discord to request access to the codebase and carry the project forward.
+          </p>
+        </div>
 
         <div className="grid gap-4 sm:grid-cols-2">
           {pages.map((page) => (
